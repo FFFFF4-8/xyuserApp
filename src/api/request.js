@@ -3,9 +3,9 @@ import VueRouter from "vue-router";
 import { routes } from "../router/index";
 import axios from "axios";
 
-const router = new VueRouter({
-  routes,
-});
+// const router = new VueRouter({
+//   routes,
+// });
 
 //全局修改axios属性
 axios.defaults.headers.post["Content-Type"] =

@@ -3,6 +3,7 @@
     <div class="content">
       <van-button type="primary">主要按钮</van-button>
       <van-icon name="chat-o" />
+      <div id="main"></div>
     </div>
   </div>
 </template>
@@ -12,7 +13,8 @@ export default {
   name: "index",
   data() {
     return {};
-  }
+  },
+  mounted() {}
 };
 </script>
 
